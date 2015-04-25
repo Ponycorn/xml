@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
-    <item>
-        <title>Example entry</title>
-        <description>Example description</description>
-    </item>
+    <channel>
+        <tittle>RSS Title</tittle>
+        <item>
+            <title>Example entry</title>
+            <description>Example description</description>
+        </item>
+    </channel>
 </rss>
