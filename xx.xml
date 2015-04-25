@@ -1,5 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!DOCTYPE foo [
-    <!ENTITY xxe SYSTEM "file:///etc/passwd">
-]>
-<test>&xxe</test>
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <item>
+        <title>Example entry</title>
+        <description>Example description</description>
+    </item>
+</rss>
